@@ -1,6 +1,8 @@
 # SYRIATEL CUSTOMER CHURN
 Author: KENNETH KARANJA
-![alt text](image.png)
+
+<img width="266" alt="churn" src="https://github.com/pseudocmd/Syriatel_project/assets/151546592/0ff526d3-e508-4124-938b-8ae7a7666d0f">
+
 
 ## Project overview
 This research employs machine learning algorithms to create a model that can accurately predict which customers will churn based on the information in the dataset. The dataset includes 20 predictor variables, the majority of which relate to client usage habits. The goal variable is 'churn'. Because the goal variable is categorical, classification methods are utilised to develop the prediction model. Recall is used to assess the model's performance.
