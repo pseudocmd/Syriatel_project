@@ -1,5 +1,6 @@
 # SYRIATEL CUSTOMER CHURN
 Author: KENNETH KARANJA
+![TELECOMMUNICATION IMAGE](https://github.com/pseudocmd/Syriatel_project/assets/151546592/37f4d139-6322-416d-a31b-a992c9215812)
 
 
 
