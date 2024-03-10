@@ -22,7 +22,8 @@ The scaling varies among the traits, and some of them are not regularly distribu
 
 The correlation between most features is really poor.However, there is an exact positive link between total charge and total minutes at different periods. This is to be expected given that the charge for a call is determined by the number of minutes used.Total day minutes, total day fee, and customer service calls show a weak positive link with churn. The other qualities have a minor link with churn (roughly zero).
 
-![My image](Images/corr.png)
+
+<img width="428" alt="corr" src="https://github.com/pseudocmd/Syriatel_project/assets/151546592/1308c6fe-5203-4eb0-9ef8-0e03123ef91f">
 
 ## Data preparation for Machine Learning
 - To mitigate multicollinearity, columns displaying total charge at different times are eliminated.<br>
@@ -31,20 +32,23 @@ The correlation between most features is really poor.However, there is an exact 
 
 - SMOTE: SMOTE is used to address class imbalance issues by oversampling the minority class with replacement.<br>
 The pie chart below depicts the distribution of the target variable after applying SMOTE.<br>
-![My image](Images/churn_2.png)
 
+
+<img width="241" alt="churn_2" src="https://github.com/pseudocmd/Syriatel_project/assets/151546592/0c33182f-3f42-4652-84f7-77580628a317">
 
 ## Modeling
 Various models are created using logistic regression, decision tree and random forest algorithms. Hyperparameter tuning is applied to ldecision tree and random forest algorithms.<br>
 A pipeline is used to prevent data leakage. Data is scaled in the pipeline.<br>
 The image below shows a summary of the models and their performance.
-![My image](Images/modeling.png)
+
+<img width="310" alt="modeling" src="https://github.com/pseudocmd/Syriatel_project/assets/151546592/d96c2d02-4eee-44ba-b9eb-465157c6f92e">
 
 ## Evaluation
 Decision tree with tuned hyperparameters is the model with the best performance. It has the highest recall score. The accuracy and precision scores are above average.<br>
 However, the recall score achieved is below the set score of at least 85%.<br>
 The feature importance of the best model is shown below.
-![My image](Images/feat_importance.png)
+
+<img width="570" alt="feat_importance" src="https://github.com/pseudocmd/Syriatel_project/assets/151546592/66a3b101-fc62-4725-904a-0353099f456f">
 
 ## Conclusions and recommendations
 The final model for predicting customer turnover is a decision tree with modified hyperparameters.This model produces the fewest number of false negatives.
