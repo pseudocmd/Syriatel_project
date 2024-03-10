@@ -1,7 +1,7 @@
 # SYRIATEL CUSTOMER CHURN
 Author: KENNETH KARANJA
 
-<img width="266" alt="churn" src="https://github.com/pseudocmd/Syriatel_project/assets/151546592/0ff526d3-e508-4124-938b-8ae7a7666d0f">
+
 
 
 ## Project overview
@@ -13,11 +13,12 @@ To enhance their income base, telecommunications businesses must attract new con
 ## Exploratory data analysis
 There is a class imbalance issue since the target class has an unequal distribution of observations. 85.51% of the data is False, with 14.49% being True.
 
-![My image](Images/churn.png)
+<img width="266" alt="churn" src="https://github.com/pseudocmd/Syriatel_project/assets/151546592/0ff526d3-e508-4124-938b-8ae7a7666d0f">
 
 The scaling varies among the traits, and some of them are not regularly distributed. The features will need to be resized and normalised.
 
-![My image](Images/hist.png)
+
+<img width="471" alt="hist" src="https://github.com/pseudocmd/Syriatel_project/assets/151546592/666a6f27-865a-4488-8f87-f77f8f3a66aa">
 
 The correlation between most features is really poor.However, there is an exact positive link between total charge and total minutes at different periods. This is to be expected given that the charge for a call is determined by the number of minutes used.Total day minutes, total day fee, and customer service calls show a weak positive link with churn. The other qualities have a minor link with churn (roughly zero).
 
