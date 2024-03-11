@@ -62,6 +62,9 @@ Syriatel should provide good customer service in order to meet customers' expect
 The more minutes a consumer spends on the phone, the less likely he or she is to churn. The corporation should compare call fee prices to competitors and propose lowering call charges per minute. This can reduce churn among other consumers.
 
 ## Next steps
+![Lead-Generation-Insurance-agents-Inshura-ACA-Marketplace-1080x675](https://github.com/pseudocmd/Syriatel_project/assets/151546592/4187e6f2-c72e-45cb-a229-fcb3123d0c95)
+
+
 The targeted recall score of 85% is not achieved by the best performing model. There is still some overfitting in the model irregardless of hyperparameter tuning.
 The training data size should be increased to reduce overfitting and hence improve model performance.
 
