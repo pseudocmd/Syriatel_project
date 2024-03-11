@@ -7,7 +7,7 @@ Author: KENNETH KARANJA
 
 ## Project overview
 This research employs machine learning algorithms to create a model that can accurately predict which customers will churn based on the information in the dataset. The dataset includes 20 predictor variables, the majority of which relate to client usage habits. The goal variable is 'churn'. Because the goal variable is categorical, classification methods are utilised to develop the prediction model. Recall is used to assess the model's performance.
-## Business problem¶
+## Business problem
 To enhance their income base, telecommunications businesses must attract new consumers while also increasing client retention rates. Syriatel is a mobile telecommunications and data services company established in Damascus, Syria. It has been demonstrated that long-term connections with clients are more effective than attempting to acquire new ones. Churn prediction has thus become a critical component of the company's strategy. The goal of this project is to create a model that accurately predicts which customers are most likely to churn, as well as to determine the key criteria for forecasting customer turnover. Syriatel can thereby prevent customers who are inclined to churn from actually churning.
 
 
